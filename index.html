@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vexed 3x Rust Server</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="hero">
+    <nav class="nav">
+      <div class="logo">VEXED 3X</div>
+      <ul class="nav-links">
+        <li><a href="#leaderboard">Kills</a></li>
+        <li><a href="#shop">Shop</a></li>
+        <li><a href="#info">Server Info</a></li>
+      </ul>
+    </nav>
+
+    <div class="hero-content">
+      <h1>Vexed 3x Rust Server</h1>
+      <p class="tagline">Fast-paced Rust. Balanced 3x. No nonsense.</p>
+      <a href="#shop" class="btn primary">Open Shop</a>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- KILLS LEADERBOARD -->
+    <section class="section" id="leaderboard">
+      <h2>Kills Leaderboard</h2>
+      <p class="muted">Current top fraggers on the server.</p>
+      <table class="lb-table" id="kills-table">
+        <thead>
+          <tr>
+            <th>Rank</th>
+            <th>Player</th>
+            <th>Kills</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </section>
+
+    <!-- SHOP -->
+    <section class="section" id="shop">
+      <h2>Server Shop</h2>
+      <p class="muted">VIP, queue skips, and packs.</p>
+
+      <div id="shop-items" class="shop-grid"></div>
+      <p class="muted small">
+        Purchases are handled via Discord or your store link. Buttons here can link out.
+      </p>
+    </section>
+
+    <!-- SERVER INFO -->
+    <section class="section" id="info">
+      <h2>Server Info</h2>
+      <div class="info-grid">
+        <div class="info-item"><span class="label">IP:</span> your.ip.here:28015</div>
+        <div class="info-item"><span class="label">Wipe:</span> Every Thursday</div>
+        <div class="info-item"><span class="label">BP Wipe:</span> Monthly</div>
+        <div class="info-item"><span class="label">Group Limit:</span> 4</div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p>Vexed 3x Rust Server © 2026</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
